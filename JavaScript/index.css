@@ -4,6 +4,7 @@ html{
     -webkit-text-size-adjust: 100%;
     line-height:  1.9;
     overflow-x: hidden;
+    height: 100%;
 }
 /* End HTML */
 
@@ -14,6 +15,7 @@ body{
     font-size: 25px; 
     line-height: 1.9; 
     background-color: cornsilk;
+    height: 100%;
 }
 /* End Body */
 
@@ -26,6 +28,12 @@ header{
     padding-right: 16px;
 }
 /* End Header */
+
+/* Container*/
+.container{
+    padding: 25px 10px;
+}
+/* End Container*/
 
 /* Headings */
 h1{
@@ -71,3 +79,21 @@ p{
     font-family: 'David', 'Times New Roman', 'Bell MT';
     text-align: center;
 }
+
+/* Footer */
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: cyan;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+footer a:hover{
+    color: red;
+}
+/* End Footer */
